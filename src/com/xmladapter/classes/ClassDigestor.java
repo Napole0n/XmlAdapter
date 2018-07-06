@@ -76,8 +76,8 @@ public class ClassDigestor{
 
             for (Method setter : lSetters) {
                 String paramName = f.getName().toLowerCase();
-                String ActualGetterName = setter.getName().replace("set", "").toLowerCase();
-                if (paramName.equals(ActualGetterName)) {
+                String actualGetterName = setter.getName().replace("set", "").toLowerCase();
+                if (paramName.equals(actualGetterName)) {
                     returnMethods.add(setter);
                     break;
                 }
