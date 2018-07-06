@@ -14,9 +14,8 @@ import java.util.List;
 /**
  *
  * @author Murilo_2
- * @param <T> A Classe a ser trabalhada
  */
-public class ClassDigestor<T> {
+public class ClassDigestor{
 
     private Class classe;
 
